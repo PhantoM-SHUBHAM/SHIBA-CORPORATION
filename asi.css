@@ -1,0 +1,21 @@
+.scroll-image {
+    width: 100%;
+    max-width: 70vw;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    position: relative;
+  }
+  .images {
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+  }
+  .banner{
+    min-width: 100%;
+    background: #f9f9f9;
+    text-align: center;
+    border-right: 2px solid #ddd;
+  }
+  .banner img{
+    max-height: 600px;
+  }
